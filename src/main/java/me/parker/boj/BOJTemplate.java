@@ -24,7 +24,8 @@ public class BOJTemplate {
             inputs.add(temp);
         }
 
-        int m, n;
+        int m = 0;
+        int n = 0;
         String[][] board = new String[m][n];
         for (int i = 0; i < m; i++) {
             String line = br.readLine();
